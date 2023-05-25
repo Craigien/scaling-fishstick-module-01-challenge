@@ -59,6 +59,7 @@ p {
     font-size: 16px;
 }
 
+/* Class for styling for hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -71,11 +72,13 @@ p {
     object-position: center;
 }
 
+/* Class for having image on the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class for having image on the right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -99,7 +102,7 @@ p {
 }
 
 
-/* Redundant */
+/* Redundant
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,6 +117,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
 .benefit-multiple {
     margin-bottom: 32px;
@@ -255,9 +259,7 @@ footer {
     text-align: center;
 }
 
-/* Changed to ID rather than class since it is only used once */
-#footer-h2 {
+/* Changed to h4 nested in footer element */
+footer h4 {
     font-size: 20px;
 }
-
-/* Need to remove redundant classes and IDs */
