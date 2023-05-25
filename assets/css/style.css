@@ -63,9 +63,15 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    /* The following were removed and replaced with an img element in index.html */
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+/* Added to modify hero image */
+.hero img {
+    object-fit: cover;
 }
 
 .float-left {
