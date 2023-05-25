@@ -67,11 +67,8 @@ p {
     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     /* background-size: cover; */
     /* background-position: center; */
-}
-
-/* Added to modify hero image */
-.hero img {
     object-fit: cover;
+    object-position: center;
 }
 
 .float-left {
@@ -97,10 +94,12 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+
+/* Redundant */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +115,13 @@ p {
     color: #ffffff;
 }
 
+.benefit-multiple {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* Redundant
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -130,7 +136,14 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+.benefit-multiple h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Redundant
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -148,7 +161,15 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
+.benefit-multiple img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Redundant
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -175,7 +196,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
+.content-material {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Redundant
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,7 +219,13 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+.content-material img {
+    max-height: 200px;
+}
+
+/* Redundant
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -199,6 +237,12 @@ p {
 }
 
 .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+.content-material h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

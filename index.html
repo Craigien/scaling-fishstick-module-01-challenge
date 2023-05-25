@@ -12,10 +12,8 @@
 <body>
     <!-- Added header -->
     <header>
-        <!-- Changed from div to section -->
-        <section>
+        <!-- Removed redundant div -->
             <h1>Hori<span class="seo">seo</span>n</h1>
-
             <!-- Changed from div to nav -->
             <nav>
                 <ul>
@@ -30,7 +28,6 @@
                     </li>
                 </ul>
             </nav>
-        </section>
     </header>
 
     <!-- Added main -->
@@ -45,8 +42,10 @@
         <!-- Main section for Search Engine Optimization, Online Reputation Management, and Social Media Marketing -->
         <!-- Changed from div to section -->
         <section class="content">
+            
             <!-- Added id of search-engine-optimization for link to work -->
-            <div id="search-engine-optimization" class="search-engine-optimization">
+            <!-- Changed class to content-material -->
+            <div id="search-engine-optimization" class="content-material">
                 <!-- Added alt text for image -->
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search engine Optimization notebook" />
                 <h2>Search Engine Optimization</h2>
@@ -56,7 +55,9 @@
                      allows you to increase your visibility and find the right customers for your business.
                 </p>
             </div>
-            <div id="online-reputation-management" class="online-reputation-management">
+
+            <!-- Changed class to content-material -->
+            <div id="online-reputation-management" class="content-material">
                 <!-- Added alt text for image -->
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Online reputation management laptop" />
                 <h2>Online Reputation Management</h2>
@@ -66,7 +67,9 @@
                     Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
             </div>
-            <div id="social-media-marketing" class="social-media-marketing">
+
+            <!-- Changed class to content-material -->
+            <div id="social-media-marketing" class="content-material">
                 <!-- Added alt text for image -->
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social media marketing icons"/>
                 <h2>Social Media Marketing</h2>
@@ -81,21 +84,21 @@
         <!-- Right side section for Lead Generation, Brand Awareness, and Cost Management -->
         <!-- Changed from div to aside -->
         <aside class="benefits">
-            <div class="benefit-lead">
+            <div class="benefit-multiple">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </div>
-            <div class="benefit-brand">
+            <div class="benefit-multiple">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </div>
-            <div class="benefit-cost">
+            <div class="benefit-multiple">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" />
                 <p>
@@ -118,4 +121,3 @@
 </html>
 
 <!-- Need to remove remaining divs -->
-<!-- Need to add alt to hero image -->
