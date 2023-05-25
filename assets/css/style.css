@@ -84,12 +84,14 @@ p {
     margin-left: 25px;
 }
 
+/* Class for styling content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class for styling benefits aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +121,7 @@ p {
 }
 */
 
+/* Consalidated classes for styling benefits */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -208,6 +211,7 @@ p {
 }
 */
 
+/* Consalidated classes for styling content */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
