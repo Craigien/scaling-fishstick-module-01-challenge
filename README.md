@@ -17,7 +17,7 @@ Use the navigation bar to jump to the different services offered.
 Web application screenshot:
 
 ```md
-![Web application screenshot](./assets/images/Webpage-Screenshot.png)
+![Web application screenshot](assets/images/Webpage-Screenshot.png)
 ```
 
 ## Credits
