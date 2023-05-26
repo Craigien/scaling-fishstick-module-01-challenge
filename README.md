@@ -11,13 +11,13 @@ N/A
 
 ## Usage
 
-The web application can be access at this URL: https://craigien.github.io/scaling-fishstick-module-01-challenge/
+The web application can be accessed at this URL: https://craigien.github.io/scaling-fishstick-module-01-challenge/
 Use the navigation bar to jump to the different services offered.
 
 Web application screenshot:
 
 ```md
-![Web application screenshot](assets/images/Webpage-Screenshot.png)
+![Web application screenshot](./assets/images/Webpage-Screenshot.png)
 ```
 
 ## Credits
@@ -26,6 +26,4 @@ N/A
 
 ## License
 
-MIT license
-
-Please refer to LICENSE in the repo.
+N/A

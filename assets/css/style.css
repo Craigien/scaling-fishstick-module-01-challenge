@@ -41,7 +41,7 @@ header nav ul {
     list-style-type: none;
 }
 
-/* Header content for li in nav ul */
+/* Header styling for li in nav ul */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -56,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-/* Class for styling for hero image */
+/* Class for styling of hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -96,7 +96,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Consalidated classes for styling benefits */
+/* Consolidated classes for styling benefits */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -121,7 +121,7 @@ p {
     max-width: 150px;
 }
 
-/* Consalidated classes for styling content */
+/* Consolidated classes for styling content */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -148,7 +148,7 @@ p {
     font-size: 36px;
 }
 
-/* Changed from class called footer to footer element */
+/* Footer element styling */
 footer {
     padding: 30px;
     clear: both;
@@ -156,7 +156,7 @@ footer {
     text-align: center;
 }
 
-/* Changed to h4 nested in footer element */
+/* Footer styling for h4 */
 footer h4 {
     font-size: 20px;
 }
